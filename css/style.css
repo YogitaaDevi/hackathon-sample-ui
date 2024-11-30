@@ -70,10 +70,10 @@ body {
   margin-top: 5px;
   padding: 0 10px;
 }
-.mail {
+.details__entries_img{
   width: 16px;
 }
-.mail_input {
+.details__entries_input {
   border: none;
   outline: none;
   margin-left: 5px;
