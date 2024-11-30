@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="flex justify-center items-center">
+    <div class="signinform flex flex-col items-center">
+      <div class="signinform__logo flex flex-col items-center w-100">
+        <div class="signinform__logo__design text-center">
+          <img src="../assets/images/protocols lab.png" alt="" class="design__img">
+        </div>
+        <div class="text-center">
+          <h3>Sign in</h3>
+          <div class="title__name ">Enter your login details to sign in</div>
+        </div>
+      </div>
+      <div class="signinform__details flex flex-col w-100">
+        <div>
+          <label for="" class="title__label">Email</label>
+          <div class="details__entries flex items-center">
+            <img src="../assets/images/email.png" alt="" class="mail" />
+            <input
+              type="email"
+              placeholder="example@gmail.com"
+              class="mail_input"
+            />
+          </div>
+          <div class="entries_errormsg">
+            Please enter the valid email address
+          </div>
+        </div>
+        <div class="signinform__details__title">
+          <label for="" class="title__label">Password</label>
+          <div class="details__entries">
+            <img src="../assets/images/password.png" alt="" class="mail" />
+            <input type="password" class="mail_input" />
+          </div>
+          <div class="entries_errormsg">Please enter a password</div>
+        </div>
+        <div class="signinform__details__actions justify-between">
+          <div class="actions__rememberme">
+            <input type="checkbox" class="actions__rememberme__checkbox" />
+            <div>Remember me</div>
+          </div>
+          <div class="actions__forgetpassword">Forget Password?</div>
+        </div>
+        <div class="signinform__details__button flex flex-col items-center">
+          <button class="button__signin w-100">Sign in</button>
+          <div class="button__signup flex">
+            Don't have an account yet?
+            <div class="button__signup__link">Sign up</div>
+          </div>
+        </div>
+      </div>
+      <div class="signinform__auth flex flex-col w-100">
+        <div class="flex justify-center items-center">
+          <div class="auth__title__line"></div>
+          <span class="auth__title__name">Or continue with</span>
+          <div class="auth__title__line"></div>
+        </div>
+        <div class="signinform__auth__option flex flex-col">
+          <button class="auth__option__button flex justify-center items-center">
+            <img
+              src="../assets/images/google.webp"
+              alt=""
+              class="auth__option__button--img"
+            />
+            <div>Sign in with Google</div>
+          </button>
+          <button class="auth__option__button flex justify-center items-center">
+            <img
+              src="../assets/images/facebookb.png"
+              alt=""
+              class="auth__option__button--img"
+            />
+            <div>Sign in with Facebook</div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

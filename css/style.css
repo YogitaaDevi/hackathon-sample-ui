@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Poppings";
+  src: url("../assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppings";
+}   
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.flex-col{
+  flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+body {
+  min-height: 100vh;
+}
+.w-100{
+    width: 100%;
+}
+.signinform {
+  width: 330px;
+  height: 530px;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 8px;
+}
+.signinform__logo {
+  height: 100px;
+  gap: 12px;
+}
+.signinform__logo__design {
+  height: 30px;
+}
+.design__img{
+    width: 200px;
+    height: 70px;
+    margin-top: -20px;
+}
+.title__name {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #77818F;
+}
+.signinform__details {
+  height: 290px;
+  gap: 12px;
+}
+.title__label {
+  font-size: 13px;
+}
+.details__entries {
+  height: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 0 10px;
+}
+.mail {
+  width: 16px;
+}
+.mail_input {
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+.entries_errormsg {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.signinform__details__actions {
+  display: flex;
+  font-size: 13px;
+}
+.actions__rememberme {
+  display: flex;
+  gap: 8px;
+}
+.actions__rememberme__checkbox {
+  width: 16px;
+  height: 16px;
+}
+.actions__forgetpassword {
+  color: #156ff7;
+  font-weight: 550;
+}
+.signinform__details__button {
+  margin-top: 10px;
+  gap: 15px;
+}
+.button__signin {
+  height: 35px;
+  border-radius: 5px;
+  background-color: #156ff7;
+  border: none;
+  color: white;
+}
+.button__signup {
+  font-size: 13px;
+  gap: 5px;
+}
+.button__signup__link {
+  color: #156ff7;
+  font-weight: 550;
+}
+.signinform__auth {
+margin-top: 12px;
+  gap: 10px;
+}
+.auth__title__line {
+  flex: 1;
+  border-top: 1px solid #e0e0e0;
+}
+.auth__title__name {
+  margin: 0 8px;
+  color: #6c757d;
+  font-size: 13px;
+}
+.signinform__auth__option {
+  gap: 14px;
+}
+.auth__option__button {
+  height: 34px;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  border-radius: 8px;
+  gap: 2px;
+}
+.auth__option__button--img {
+  width: 32px;
+}
